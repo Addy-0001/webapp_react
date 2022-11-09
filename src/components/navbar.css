@@ -1,0 +1,16 @@
+.navigation_bar
+{
+
+    display: flex;
+    color: white;
+    background-color: red;
+    padding: .5em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: stretch;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
