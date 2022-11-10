@@ -1,0 +1,59 @@
+.about-container
+{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    padding: 2em;
+}
+
+h3
+{
+    display: block;
+    padding: 2em 0 0 0;
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+}
+
+h3::before
+{
+    content: ' ';
+    position: absolute;
+    width: 4em;
+    background-color: red;
+    height: .6em;
+    bottom: 0;
+    z-index: -1;
+    margin-left: -.5em;
+}
+
+.AlbertBox
+{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-around;
+    border-radius: 20px;
+    border-color: white;
+    background-color: white;
+    
+}
+
+.AlbertBox p
+{
+    width: 80%;
+    padding: 0 0 2em 0;
+}
+
+.AlbertBox em
+{
+    font-style: normal;
+    color: red;
+}
