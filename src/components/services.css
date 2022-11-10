@@ -1,0 +1,19 @@
+.plans
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.plans h3
+{
+    font-size: 30px;
+}
+
+.plans h2
+{
+    padding: 0 0 0 0;
+}
