@@ -1,0 +1,56 @@
+.review-title
+{
+    color: Red;
+    background-color: black;
+    border: 0;
+    padding: 2em 0 0 0;
+    text-align: center; 
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.review-title em
+{
+    font-style: normal;
+    color: white;
+}
+.reviews
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-evenly;
+    padding: 2em;
+}
+
+.manoj
+{
+    background-color: red;
+    color: whitesmoke;
+    width: 30%;
+    border-radius: 30px;
+    text-align: left;
+    padding: .9em;
+}
+.dipjung
+{
+    background-color: red;
+    color: whitesmoke;
+    width: 30%;
+    border-radius: 30px;
+    text-align: left;
+    padding: .9em;
+}
+.nishant
+{
+    background-color: red;
+    color: whitesmoke;
+    width: 30%;
+    border-radius: 30px;
+    text-align: left;
+    padding: .9em;
+}
