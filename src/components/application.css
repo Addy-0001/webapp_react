@@ -1,0 +1,38 @@
+.GoogleForm
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    padding: 2em; 
+}
+
+.GoogleForm a
+{
+    text-decoration: none;
+    color: white;
+}
+.GoogleForm h2
+{
+    font-size: 30px;
+    text-align: center;
+}
+.GoogleForm em
+{
+    font-style: normal;
+    color: red;
+}
+
+.form-button
+{
+    font-style: normal;
+    text-transform: none;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    color: white;
+    width: 25%;
+    background-color: red;
+    border-radius: 25px;
+}
