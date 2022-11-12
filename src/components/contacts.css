@@ -1,0 +1,48 @@
+.contacts
+{
+    text-align: center;
+}
+
+.socials
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.socials img
+{
+    width: 40px;
+    bottom: .5em;
+}
+
+.socials a
+{
+    width: auto;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.logos
+{
+    background-color: black;
+    color: white;
+    padding: 2em; 
+}
+
+.logos h3
+{
+    font-size: 30px;
+    text-align: center;
+    padding: 0 4em 0 4em;
+}
+
+footer
+{
+    padding: 1em;
+    text-align: center;
+}

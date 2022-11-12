@@ -54,3 +54,50 @@
     text-align: left;
     padding: .9em;
 }
+
+@media (max-width: 1127px)
+{
+    .reviews {
+            background-color: black;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            align-content: space-around;
+        }
+    .manoj
+    {
+        background-color: red;
+        color: whitesmoke;
+        width: 80%;
+        border-radius: 50px;
+        text-align: left;
+        padding: 2em;
+        border: 10px solid;
+        border-color: black;
+    }
+    .dipjung
+    {
+        background-color: red;
+        color: whitesmoke;
+        width: 80%;
+        border-radius: 50px;
+        text-align: left;
+        padding: 2em;
+        border: 10px solid;
+        border-color: black;
+    }
+    .nishant
+    {
+        background-color: red;
+        color: whitesmoke;
+        width: 80%;
+        border-radius: 50px;
+        text-align: left;
+        padding: 2em;
+        border: 10px solid;
+        border-color: black; 
+    }
+}

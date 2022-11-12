@@ -50,3 +50,24 @@ h1 span::before
     color: red;
     position: relative;
 }
+
+@media (max-width: 1127px)
+{
+    .top_description {
+            color: white;
+            background-color: black;
+            padding: 0px;
+            margin: 0px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            align-content: center;
+        }
+
+    .top_description img
+    {
+        width: 100%;
+    }
+}
